@@ -324,7 +324,7 @@ footer .social , footer h3{
     
 }
 
-@media (max-width:991px) {
+@media (min-width:500px) and (max-width:991px) {
     
     .navbar-brand{
         padding: .65rem;
@@ -351,7 +351,90 @@ footer .social , footer h3{
 .form-box input[type="email"]:focus,
 .form-box textarea:focus{
 	width: 100%;
-	border-color: #fff;
+
 }
     
+}
+
+@media  (min-width:370px ) and  (max-width:500px){
+    .form-box input[type="text"],
+    .form-box input[type="email"],
+    .form-box button[type="submit"],
+    .form-box textarea{
+	width: 85%;
+	
+}
+  
+    .form-box,
+    .form-box input[type="text"]:focus,
+    .form-box input[type="email"]:focus,
+    .form-box textarea:focus{
+	width: 100%;
+
+}
+
+.detalles{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detalles img{
+    object-fit: contain;
+   width: 100%;
+ 
+}
+
+.logo{
+    height: 4rem;
+}
+    
+.checked label{
+    font-size: .7rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+
+}
+@media (max-width:370px) {
+    .form-box input[type="text"]:focus,
+    .form-box input[type="email"]:focus,
+    .form-box textarea:focus{
+	width: 100%;
+	border-color: #fff;
+}
+
+.logo{
+    height: 3rem;
+}
+    
+.checked label{
+    font-size: .6rem;
+    margin-left: 2%;
+    margin-right:2%;
+    
+}
+.form-box{
+    font-size: .7rem;
+}
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box button[type="submit"],
+.form-box textarea{
+width: 85%;
+}
+.form-box,
+.form-box input[type="text"]:focus,
+.form-box input[type="email"]:focus,
+.form-box textarea:focus{
+width: 100%;
+
+}
+.detalles{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detalles img{
+    object-fit: contain;
+   width: 100%;
+}
 }
