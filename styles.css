@@ -252,7 +252,10 @@ footer .social , footer h3{
     
 }
 
-
+.no-resul{
+    color:var(--white);
+    padding: 5rem;
+}
 
 .detalles .info, .detalles img{
   
@@ -268,6 +271,11 @@ footer .social , footer h3{
     padding: 1rem;
     border: 1px solid var(--white);
 
+}
+
+.info{
+    width: 100%;
+    font-size: 20px;
 }
 
 .info p{
